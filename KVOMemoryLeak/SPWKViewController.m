@@ -27,9 +27,25 @@
 }
 
 - (void)didChangeValueForKey:(NSString *)key {
-    
+    ////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////
+    // If you comment out the call to super, you will have a memory leak!
+    // Better yet, never override didChangeValueForKey:
+    [super didChangeValueForKey:key];
+    ////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////
     if ([key isEqualToString:@"things"]) {
         NSLog(@"didChangeValueForKey: things have changed!");
+    }
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath
+                      ofObject:(id)object
+                        change:(NSDictionary *)change
+                       context:(void *)context
+{
+    if ([keyPath isEqualToString:@"things"]) {
+        NSLog(@"observeValueForKeyPath: things have changed!");
     }
 }
 
@@ -54,7 +70,7 @@
 
 - (void)dealloc
 {
-    NSLog(@"SPWKDetailViewController dealloc");
+    NSLog(@"SPWKThing dealloc");
     [self unregisterKVO];
 }
 
