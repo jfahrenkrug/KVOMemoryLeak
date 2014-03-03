@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1AB1B318C50FF80063C1CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1AB1B218C50FF80063C1CF /* Foundation.framework */; };
+		AB1AB1B518C50FF80063C1CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1AB1B418C50FF80063C1CF /* CoreGraphics.framework */; };
+		AB1AB1B718C50FF80063C1CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1AB1B618C50FF80063C1CF /* UIKit.framework */; };
+		AB1AB1BD18C50FF80063C1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB1AB1BB18C50FF80063C1CF /* InfoPlist.strings */; };
+		AB1AB1BF18C50FF80063C1CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1AB1BE18C50FF80063C1CF /* main.m */; };
+		AB1AB1C318C50FF90063C1CF /* SPWKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1AB1C218C50FF90063C1CF /* SPWKAppDelegate.m */; };
+		AB1AB1C618C50FF90063C1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1AB1C418C50FF90063C1CF /* Main.storyboard */; };
+		AB1AB1C918C50FF90063C1CF /* SPWKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1AB1C818C50FF90063C1CF /* SPWKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB1AB1AF18C50FF80063C1CF /* KVOMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1AB1B218C50FF80063C1CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB1AB1B418C50FF80063C1CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB1AB1B618C50FF80063C1CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB1AB1BA18C50FF80063C1CF /* KVOMemoryLeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVOMemoryLeak-Info.plist"; sourceTree = "<group>"; };
+		AB1AB1BC18C50FF80063C1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB1AB1BE18C50FF80063C1CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB1AB1C018C50FF90063C1CF /* KVOMemoryLeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVOMemoryLeak-Prefix.pch"; sourceTree = "<group>"; };
+		AB1AB1C118C50FF90063C1CF /* SPWKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPWKAppDelegate.h; sourceTree = "<group>"; };
+		AB1AB1C218C50FF90063C1CF /* SPWKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPWKAppDelegate.m; sourceTree = "<group>"; };
+		AB1AB1C518C50FF90063C1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB1AB1C718C50FF90063C1CF /* SPWKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPWKViewController.h; sourceTree = "<group>"; };
+		AB1AB1C818C50FF90063C1CF /* SPWKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPWKViewController.m; sourceTree = "<group>"; };
+		AB1AB1D118C50FF90063C1CF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB1AB1AC18C50FF80063C1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1AB1B518C50FF80063C1CF /* CoreGraphics.framework in Frameworks */,
+				AB1AB1B718C50FF80063C1CF /* UIKit.framework in Frameworks */,
+				AB1AB1B318C50FF80063C1CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1AB1A618C50FF80063C1CF = {
+			isa = PBXGroup;
+			children = (
+				AB1AB1B818C50FF80063C1CF /* KVOMemoryLeak */,
+				AB1AB1B118C50FF80063C1CF /* Frameworks */,
+				AB1AB1B018C50FF80063C1CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1AB1B018C50FF80063C1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB1AB1AF18C50FF80063C1CF /* KVOMemoryLeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1AB1B118C50FF80063C1CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB1AB1B218C50FF80063C1CF /* Foundation.framework */,
+				AB1AB1B418C50FF80063C1CF /* CoreGraphics.framework */,
+				AB1AB1B618C50FF80063C1CF /* UIKit.framework */,
+				AB1AB1D118C50FF90063C1CF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1AB1B818C50FF80063C1CF /* KVOMemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				AB1AB1C118C50FF90063C1CF /* SPWKAppDelegate.h */,
+				AB1AB1C218C50FF90063C1CF /* SPWKAppDelegate.m */,
+				AB1AB1C418C50FF90063C1CF /* Main.storyboard */,
+				AB1AB1C718C50FF90063C1CF /* SPWKViewController.h */,
+				AB1AB1C818C50FF90063C1CF /* SPWKViewController.m */,
+				AB1AB1B918C50FF80063C1CF /* Supporting Files */,
+			);
+			path = KVOMemoryLeak;
+			sourceTree = "<group>";
+		};
+		AB1AB1B918C50FF80063C1CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB1AB1BA18C50FF80063C1CF /* KVOMemoryLeak-Info.plist */,
+				AB1AB1BB18C50FF80063C1CF /* InfoPlist.strings */,
+				AB1AB1BE18C50FF80063C1CF /* main.m */,
+				AB1AB1C018C50FF90063C1CF /* KVOMemoryLeak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB1AB1AE18C50FF80063C1CF /* KVOMemoryLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1AB1E118C50FF90063C1CF /* Build configuration list for PBXNativeTarget "KVOMemoryLeak" */;
+			buildPhases = (
+				AB1AB1AB18C50FF80063C1CF /* Sources */,
+				AB1AB1AC18C50FF80063C1CF /* Frameworks */,
+				AB1AB1AD18C50FF80063C1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOMemoryLeak;
+			productName = KVOMemoryLeak;
+			productReference = AB1AB1AF18C50FF80063C1CF /* KVOMemoryLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1AB1A718C50FF80063C1CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPWK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Springenwerk;
+			};
+			buildConfigurationList = AB1AB1AA18C50FF80063C1CF /* Build configuration list for PBXProject "KVOMemoryLeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1AB1A618C50FF80063C1CF;
+			productRefGroup = AB1AB1B018C50FF80063C1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB1AB1AE18C50FF80063C1CF /* KVOMemoryLeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB1AB1AD18C50FF80063C1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1AB1BD18C50FF80063C1CF /* InfoPlist.strings in Resources */,
+				AB1AB1C618C50FF90063C1CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB1AB1AB18C50FF80063C1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1AB1BF18C50FF80063C1CF /* main.m in Sources */,
+				AB1AB1C318C50FF90063C1CF /* SPWKAppDelegate.m in Sources */,
+				AB1AB1C918C50FF90063C1CF /* SPWKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB1AB1BB18C50FF80063C1CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1AB1BC18C50FF80063C1CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB1AB1C418C50FF90063C1CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB1AB1C518C50FF90063C1CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1AB1DF18C50FF90063C1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB1AB1E018C50FF90063C1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB1AB1E218C50FF90063C1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVOMemoryLeak/KVOMemoryLeak-Prefix.pch";
+				INFOPLIST_FILE = "KVOMemoryLeak/KVOMemoryLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB1AB1E318C50FF90063C1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVOMemoryLeak/KVOMemoryLeak-Prefix.pch";
+				INFOPLIST_FILE = "KVOMemoryLeak/KVOMemoryLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB1AB1AA18C50FF80063C1CF /* Build configuration list for PBXProject "KVOMemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1AB1DF18C50FF90063C1CF /* Debug */,
+				AB1AB1E018C50FF90063C1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1AB1E118C50FF90063C1CF /* Build configuration list for PBXNativeTarget "KVOMemoryLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1AB1E218C50FF90063C1CF /* Debug */,
+				AB1AB1E318C50FF90063C1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1AB1A718C50FF80063C1CF /* Project object */;
+}
